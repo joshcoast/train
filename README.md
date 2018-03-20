@@ -20,3 +20,4 @@ In order to build the css, you must process it with tailwind using this command:
 Use onchange and npm to run the tailwind process when ever the main.css file is changed:
 `npm run watch` 
 
+To update the defaults for tailwind, use the tailwind.js file

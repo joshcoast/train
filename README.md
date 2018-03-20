@@ -1,4 +1,4 @@
-# train
+# Train Time
 An activity to learn about writing to a database.
 
 Using Tailwind framework. Docs can be found here: https://tailwindcss.com/docs/
@@ -7,7 +7,9 @@ Tailwind is a utility baced css framework, but with a cool twist, you can make a
 
 -- "Tailwind encourages a "utility-first" workflow, where new designs are initially implemented using only utility classes to avoid premature abstraction."
 
-# Setup and build process
+# Setup and Build Process
+
+run `npm install`
 
 Tailwind requires node v6
 Run `nvm use 6` to switch
@@ -15,6 +17,6 @@ Run `nvm use 6` to switch
 In order to build the css, you must process it with tailwind using this command:
 ./node_modules/.bin/tailwind build styles/main.css -c ./tailwind.js -o ./styles/output.css
 
-Running onchange to run the tailwind command every time the main.css file changes:
+Use onchange and npm to run the tailwind process when ever the main.css file is changed:
 `npm run watch` 
 

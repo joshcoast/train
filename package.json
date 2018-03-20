@@ -11,7 +11,8 @@
   },
   "scripts": {
 		"tailwind": "./node_modules/.bin/tailwind build styles/main.css -c ./tailwind.js -o ./styles/output.css",
-		"watch": "onchange 'styles/main.css' -- ./node_modules/.bin/tailwind build styles/main.css -c ./tailwind.js -o ./styles/output.css"
+		"watch": "onchange 'styles/main.css' -- ./node_modules/.bin/tailwind build styles/main.css -c ./tailwind.js -o ./styles/output.css",
+		"watchBetter": "onchange 'styles/main.css' -- npm run tailwind"
   },
   "repository": {
     "type": "git",

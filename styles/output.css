@@ -632,6 +632,8 @@ button,
 
 .container {
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 576px) {
@@ -4596,6 +4598,32 @@ button,
 	* @import "utilities/background-patterns";
 	* @import "utilities/skew-transforms";
 	*/
+
+/* -- Button Components --*/
+
+.btn-blue {
+  background-color: #3490dc;
+  color: #fff;
+  font-weight: 700;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-bottom-width: 4px;
+  border-color: #2779bd;
+  border-radius: .25rem;
+}
+
+.btn-blue:hover {
+  background-color: #6cb2eb;
+  border-color: #3490dc;
+}
+
+/* -- Custom -- */
+
+.billboard {
+  height: 50vh;
+}
 
 @media (min-width: 576px) {
   .sm\:list-reset {
